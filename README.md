@@ -266,77 +266,53 @@ Median (The mid point value) = Return the median of the values in the specified 
 Mode (The most common value) = Returns the mode of the values in the specified axis.
 <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/5f6240ea-60f8-496e-bec5-f902488d9d6a" /></div>
 
+---
 
+1. The df.unique() syntax is used to get unique values in the columns of a pandas DataFrame
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/efc4ac50-7388-4100-b963-33c8d752facc" /></div>
 
+2. The df.nunique() is a function in Python that is used to get the unique number of values in a column or axis in a DataFrame.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/61ca50e2-0da5-4de2-8199-205e720f37c0" /></div>
 
-Jum’at 
+3. The df.type_value_counts() is a method on a DataFrame in pandas that is used to count the number of occurrences of each unique value in a column, while ordering them based on the number of occurrences.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/43d299d3-fd1e-4b1e-b778-e967d31dbcfe" /></div>
 
-The df.unique() syntax is used to get unique values in the columns of a pandas DataFrame.
+4. Call a specific column is a notation for retrieving certain columns from a DataFrame df. This notation will return a new DataFrame containing only the specified columns.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/89e3bfea-6fd9-4c0b-b2e4-f0e034cb016f" /></div>
 
+5. Calling a Python dataset with terms and conditions means retrieving or selecting certain data from a dataset based on certain terms or conditions. This can be done using boolean operators or logical statements, such as ==, !=, <, >, <=, >=, or and, or, not.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/b33092c3-aa80-4c9a-8533-04ecf91f4f9d" /></div>
 
-The df.nunique() is a function in Python that is used to get the unique number of values in a column or axis in a DataFrame.
+6. Calls several columns accompanied by a filter terms and conditions
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/323caba8-fd10-4626-bef4-4c23dd01fffb" /></div>
 
-The df.type_value_counts() is a method on a DataFrame in pandas that is used to count the number of occurrences of each unique value in a column, while ordering them based on the number of occurrences.
+---
 
-Call a specific column is a notation for retrieving certain columns from a DataFrame df. This notation will return a new DataFrame containing only the specified columns.
+**DATE TIME**
 
-Calling a Python dataset with terms and conditions means retrieving or selecting certain data from a dataset based on certain terms or conditions. This can be done using boolean operators or logical statements, such as ==, !=, <, >, <=, >=, or and, or, not.
-
-Calls several columns accompanied by a filter terms and conditions
-
-
-DateTime 
 DateTime is a module in Python that deals with real-time data and time. It provides classes and functions to manipulate and format dates and times. Here are some commonly used classes and functions in the DateTime module. 
-date : This class represents a date (year, month, and day) without time.
- datetime : This class represents a date and time (year, month, day, hour, minute, second, and microsecond).
-time : This class represents time (hour, minute, second, and microsecond) without a date.
+1. date : This class represents a date (year, month, and day) without time.
+2. datetime : This class represents a date and time (year, month, day, hour, minute, second, and microsecond).
+3. time : This class represents time (hour, minute, second, and microsecond) without a date.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/3ff86382-9f98-48f6-ac83-fc70d419a27f" /></div>
 
+---
 
-Random Library 
+**RANDOM LIBRARY**
+
 The random module in Python provides various functions to generate random numbers. Here are some commonly used functions in the random library:
- random.random(): This function returns a random float number between 0.0 to 1.0.
+
+1. random.random(): This function returns a random float number between 0.0 to 1.0.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/17822088-9bc7-42d8-9077-395510b4ce1f" /></div>
 
 Txt File - Open - Read - Close
-Open : In Python, you can open and read a text file using the built-in open() function. The open() function in Python is used to open a file and return a file (.txt) object.
+- Open : In Python, you can open and read a text file using the built-in open() function. The open() function in Python is used to open a file and return a file (.txt) object.
+  <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/52dac9b3-db04-49f8-a5f9-0d9f5d0c77e6" /></div>
 
-Read : The read() function in Python is used to read the contents of a file object that has been opened using the open() function. 
+- Read : The read() function in Python is used to read the contents of a file object that has been opened using the open() function.
+  <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/ac3a4be8-2271-4573-ae9c-40f5341be4cd" /></div>
 
-Close : The close() function in Python is used to close a file that has been opened using the open() function. This is important because it frees up system resources and ensures that any changes made to the file are saved.
-
-
-
-**FUCTION**
-
-**Python Functions** is a block of statements that return the specific task. The idea is to put some commonly or repeatedly done tasks together and make a function so that instead of writing the same code again and again for different inputs, we can do the function calls to reuse code contained in it over and over again.
-1. In mathematics, a function is a process that relates between an input and an output.
-2. In Python, apart from these relationship functions, functions are also a way to organize code with the ultimate goal of code being reusable.
-3. Functions are defined with the def keyword followed by the function name and parameters in brackets ()
-4. Optionally, a docstring can be added - a documentation string that describes the context of the function
-<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/72db590b-8e81-4998-b279-55fcc3d38184" /></div>
-
-5. By default, Python will position according to the registration order in which it was defined, and must be called in that order.
-<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/b773e719-d9c0-4065-b5c2-c0a28d55b15c" /></div>
+- Close : The close() function in Python is used to close a file that has been opened using the open() function. This is important because it frees up system resources and ensures that any changes made to the file are saved.
+  <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/c96efb2e-3009-44a8-b933-a3b2d2c2c34c" /></div>
 
 
-
-
-**RETURN**
-
-The Phython Return statement is a special statement that can use inside in function or method to send the function’s result back to the caller. A Return statement consist of the return keyword followed by an optional return value. The return value of a Python function can be any Python object.
-<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/32b461d7-e5d5-49ca-a1bf-af39f4e2255a" /></div>
-
-1. The return value of a function can be stored in a variable.
-
-2. This will differentiate a function that returns a value from a function that does not return a value (often referred to as a procedure).
-<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/2768b84f-5538-416a-9fab-b6870ef39d80)" /></div>
-
-
-
-
-**Pass by reference vs value**
-
-The difference between pass-by-reference and pass-by-value is that modifications made to arguments passed in by reference in the called function have effect in the calling function, whereas modifications made to arguments passed in by value in the called function can not affect the calling function.
-<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/3d1b8c22-ed7c-409c-8669-25dbc8f67f48" /></div>
-
-
-<div align="center"><img src="" /></div>
