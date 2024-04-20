@@ -121,128 +121,150 @@ The "arr[0, 1]" syntax is used to access the 2nd dimension, the 1st row, and the
 **PANDAS**
 
 Pandas is a powerful and widely used open-source Python library primarily used for data manipulation and analysis. It provides high-performance data structures and tools for working with structured data, making it an essential tool for data scientists and analysts.
-
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/c61bbc0c-7f32-4d6c-a08d-ddce338ad8ce" /></div>
 
 Pandas has two main objects: Series and DataFrame.
-Series
+
+---
+
+**SERIES**
+
 The Series object is a ONE-dimensional array that can store various types of data, such as integers, floats, strings, and others. It does not have column names as it consists of only one column. Each element in a Series has a label called an index.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/ad859983-02ed-4305-b30e-42e18d605d21" /></div>
 
 Convert it into a Series
-
-
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/e92fce17-0c4e-4e6c-b3dc-1efa44283d65" /></div>
 
 Convert the Series to an array
-
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/c9f1b81a-f0fe-4f2d-a9f2-2d51d3b32978" /></div>
 
 Display the indices.
 The indices are represented as a range, where the start point is inclusive, and the stop point is exclusive in the range.
-Implicit indexing: Default numerical index assigned based on positional order.
-Explicit indexing: Custom labels or values are assigned to uniquely identify rows or columns.
+1. Implicit indexing: Default numerical index assigned based on positional order.
+2. Explicit indexing: Custom labels or values are assigned to uniquely identify rows or columns.
+   <div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/ced79214-b522-4aaf-9ffe-b208db3fe6c1" /></div>
 
 When the implicit and explicit indices are the same, when we call the data, it will rely only on its explicit indices.
-
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/78882cce-13fa-4a0d-85c3-fbf165aec920" /></div>
 
 The result of name_2[0] is an error due to the similarity between the explicit indices and the implicit indices.
 
 We'll now try to perform data-slicing
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/9a5a25b9-227a-4d75-87b2-1f3eb30c7711" /></div>
 
 But if we slice its implicit indices, only the start point will appear, because implicit indices are in the form of a range
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/9df6e5fb-e7af-4967-bf82-e15b0db2333f" /></div>
 
-Ioc and iloc
+---
+
+**LOC AND ILOC**
+
 Example of data where some implicit and explicit indices are the same.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/daed4282-ce5e-4877-b76b-ea20f7d731b2" /></div>
 
 When we access a single index, it will display its explicit index.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/1c14dabb-944f-4cbd-ab97-78f0cfb9ac6c" /></div>
 
 When explicit and implicit indices are the same, inconsistencies occur as in the case above.
+
 To address this inconsistency, we will use the principles of loc and iloc.
+
 loc is used to call its explicit indices, while iloc is used to call its implicit indices.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/e0311197-c12a-4c94-b99b-bbccd1107325" /></div>
 
+---
 
+**Dictionary -- Series**
 
-Dictionary -- Series
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/5ad762f6-1418-473e-b00a-b7e329be6fa0" /></div>
 
+---
 
-Kamis
-DataFrame
+**DATA FRAME**
+
 DataFrame is a two-dimensional tabular data structure with labeled axes (rows and columns). This allows for easy manipulation and analysis of data. Essentially, a DataFrame is a collection of series, with at least one series.
 
 DataFrame With 2 Series : 
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/e4887335-6469-467f-8695-42bc2b299f1c" /></div>
 
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/71cf88c5-48b9-4bd6-aa89-b19dc51a4e27" /></div>
 
+---
 
+**LOAD DATA CSV**
 
-
-
-
-
-
-Load Data CSV
 Load Data ‘Kelahiran_Bayi_Jakarta_2020’.csv that has been aplouded in the same folder in Python.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/cc981f7d-4505-4f79-b2c7-f3a8e4ea1799" /></div>
 
+**Head()**
 
-
-
-Head()
 Head() function to a viewing top in data by default is top five can be customized as required.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/f3478c09-cf0f-44e3-87a6-81c7942a03f3" /></div>
 
-Tail()
+**Tail()**
+
 Tail()returns the last 5 rows if a number is not specified,returns a specified number of last rows.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/71529ffb-aae7-45c8-8391-72662d01268d" /></div>
 
 
+**Info()**
 
-Info()
 Info()Info method prints information about the DataFrame.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/5b74d712-b193-41f3-b65d-661ec9924cad" /></div>
 
 
+**Index**
 
-Index
 Index returns the index information of the DataFrame.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/f01c39f6-1e0a-41f8-a92a-0e580115e46f" /></div>
 
 
+**IsNull()**
 
-IsNull()
 isnull used to finds NULL values in DataFrame.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/bc8f9212-c4bf-45b8-857d-404ea1446473" /></div>
 
 
+**NotNull()**
 
-
-
-NotNull()
 notnull used to finds values that are NOT NULL.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/555b7822-76fe-4a0f-8b65-4ca65bf952e2" /></div>
 
 
+**Shape**
 
-Shape
 Shape is the number of rows and columns on the index of the DataFrame.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/6f85d98f-0528-460c-89a2-6f80bcaec669" /></div>
 
 
+**Columns**
 
-
-Columns
 Column returns the label of each column in the DataFrame.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/c82909a0-6159-46e5-b847-41cbd3095f76" /></div>
 
 
+**Describe**
 
-Describe
 Returns a description summary for each column in the DataFrame,describe contains numeric data from managed datasets.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/b15631d2-1fcb-4fd9-9661-b7af7e61af0c" /></div>
 
 
+**Mean**
 
-Mean
 Mean (The average value) = Return the mean of the values in the specified axis.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/edfa4282-8c17-4b35-87c3-5974e8c37194" /></div>
 
-Median
-Returns a description summary for each column in the DataFrame.
-Median
+
+**Median**
+
 Median (The mid point value) = Return the median of the values in the specified axis.
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/4ff140d8-7207-4df3-abc0-cea9bbc0848f" /></div>
 
 
+**Mode**
 
-
-
-Mode
 Mode (The most common value) = Returns the mode of the values in the specified axis.
-
+<div align="center"><img src="https://github.com/nabilahkh/Specialist-Python-Week-2/assets/92252191/5f6240ea-60f8-496e-bec5-f902488d9d6a" /></div>
 
 
 
